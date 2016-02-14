@@ -1,7 +1,7 @@
 {
   "name": "sf-env",
   "version": "1.0.0",
-  "description": "Soluzioni Futura Enviroments. Log the current NODE_ENV, checking if it is one of supported ones for the application. If it's is not, overrides it with a default one.",
+  "description": "Log the current NODE_ENV, checking if it is supported in the application. If it's is not, overrides it with the default one.",
   "main": "lib/sf-env.js",
   "scripts": {
     "test": "node test/test.js"
