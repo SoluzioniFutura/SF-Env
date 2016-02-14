@@ -1,5 +1,14 @@
 #Soluzioni Futura Enviroments
+<a href="https://www.npmjs.com/package/sf-env"><img src='http://img.shields.io/npm/v/sf-env.svg?style=flat'></a>
+<a href="https://www.npmjs.com/package/sf-env"><img src='https://img.shields.io/npm/dm/sf-env.svg?style=flat-square'></a>
+<a href="https://ci.appveyor.com/project/SoluzioniFutura/sf-env/build/1.0.7"><img src='https://ci.appveyor.com/api/projects/status/6oq9yuoorg4lspx6?svg=true'></a>
+<a href="https://david-dm.org/SoluzioniFutura/sf-env"><img src='https://david-dm.org/SoluzioniFutura/sf-env.svg'></a>
+<a href="https://www.youtube.com/watch?v=Sagg08DrO5U"><img src='http://img.shields.io/badge/gandalf-approved-61C6FF.svg'></a>
+
+---
+
 Log the current NODE_ENV, checking if it is one of supported ones for the application. If it's is not, overrides it with a default one.
+Colors are from npm [Colors](https://www.npmjs.com/package/colors "Colors"), check the docs to see available ones. 
 
 1 - you can fully customize your environment set and the default environment if NODE_ENV is not set:
 ```
