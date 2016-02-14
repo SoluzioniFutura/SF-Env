@@ -1,0 +1,22 @@
+{
+  "name": "sf-env",
+  "version": "1.0.0",
+  "description": "Soluzioni Futura Enviroments. Log the current NODE_ENV, checking if it is one of supported ones for the application. If it's is not, overrides it with a default one.",
+  "main": "sf-env.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoluzioniFutura/SF-Env.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SoluzioniFutura/SF-Env/issues"
+  },
+  "homepage": "https://github.com/SoluzioniFutura/SF-Env#readme",
+  "dependencies": {
+    "colors": "^1.1.2"
+  }
+}
