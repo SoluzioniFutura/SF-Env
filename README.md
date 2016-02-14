@@ -1,10 +1,10 @@
-#Soluzioni Futura Enviroments.
+#Soluzioni Futura Enviroments
 Log the current NODE_ENV, checking if it is one of supported ones for the application. If it's is not, overrides it with a default one.
 
-1 - you can fully customize your options and you default environment:
+1 - you can fully customize your environment set and the default environment if NODE_ENV is not set:
 ```
-//setting up options
-var options = {
+//setting up environment set
+var environmentSet = {
  environments: {
    development: { color: 'green' },
    staging: { color: 'yellow' },
@@ -12,14 +12,14 @@ var options = {
  }
 };
 
-//requiring module and passing options and default env if NODE_ENV is not set
-require('sf-env')(options, 'staging');
+//requiring module and passing environment set and the default environment
+require('sf-env')(environmentSet, 'staging');
 ```
 
-2 -  you can just customize your options without specifying the default environment (first one will be the default one):
+2 - you can just customize the environment set without specifying the default environment (first one will be the default one):
 ```
-//setting up options
-var options = {
+//setting up environment set
+var environmentSet = {
  environments: {
    development: { color: 'green' },
    staging: { color: 'yellow' },
@@ -27,18 +27,18 @@ var options = {
  }
 };
 
-//requiring module and passing just options, if NODE_ENV is not set use the first environment as default ('development')
-require('sf-env')(options);
+//requiring module and passing environment set (default environment will be 'development')
+require('sf-env')(environmentSet);
 ```
 
-3 - you can use default environment set (by default the options object is equal to the example above)
+3 - you can use default environment set (by default the environmentSet object is equal to the example above) and specify only the default environment
 ```
-//requiring module and passing default env if NODE_ENV is not set
+//requiring module and passing default environment
 require('sf-env')('development');
 ```
 
-4 - you can use default environment set and first of them as default env if NODE_ENV is not set
+4 - you can use default environment set and first of them as default environment if NODE_ENV is not set
 ```
-//requiring module and calling it with no arguments, assuming that the default env is the first of the default options.environments ('developments')
+//requiring module and calling it with no arguments
 require('sf-env')();
 ```
