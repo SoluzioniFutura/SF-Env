@@ -1,7 +1,5 @@
 #Soluzioni Futura Enviroments
 <a href="https://www.npmjs.com/package/sf-env"><img src='http://img.shields.io/npm/v/sf-env.svg?style=flat'></a>
-<a href="https://www.npmjs.com/package/sf-env"><img src='https://img.shields.io/npm/dm/sf-env.svg?style=flat-square'></a>
-<a href="https://ci.appveyor.com/project/SoluzioniFutura/sf-env/build/1.0.7"><img src='https://ci.appveyor.com/api/projects/status/6oq9yuoorg4lspx6?svg=true'></a>
 <a href="https://david-dm.org/SoluzioniFutura/sf-env"><img src='https://david-dm.org/SoluzioniFutura/sf-env.svg'></a>
 <a href="https://www.youtube.com/watch?v=Sagg08DrO5U"><img src='http://img.shields.io/badge/gandalf-approved-61C6FF.svg'></a>
 

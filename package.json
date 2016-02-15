@@ -1,6 +1,6 @@
 {
   "name": "sf-env",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Log the current NODE_ENV, checking if it is supported in the application. If it's is not, overrides it with the default one.",
   "main": "lib/sf-env.js",
   "scripts": {
