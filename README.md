@@ -7,7 +7,7 @@
 
 ---
 
-Log the current NODE_ENV, checking if it is supported in the application. If it's is not, overrides it with the default one.
+Log the current NODE_ENV, checking if it is supported in the application. If it's not, overrides it with the default one.
 Colors are from npm [Colors](https://www.npmjs.com/package/colors "Colors"), check the docs to see available ones. 
 
 1 - you can fully customize your environment set and the default environment if NODE_ENV is not set:
